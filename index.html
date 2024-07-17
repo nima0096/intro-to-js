@@ -7,5 +7,78 @@
   </head>
   <body>
     Welcome to Javascript
+    <script>
+      // OPERATORS
+      // ARITHMETIC OPERATORS
+      const a = 4;
+      const b = 3;
+      const c = 10;
+      const d = 12;
+
+      console.log(a < b);
+      console.log(a > b);
+      console.log(a >= b);
+      console.log(a <= b);
+      console.log(a == b);
+      console.log(a === b);
+      console.log(a > b && d > c);
+      console.log(a > b && c > d);
+      console.log(a + b !== c + d);
+      console.log(a > b || d > c);
+      console.log(a > b || d < c);
+      console.log(a + b !== d + c);
+
+      // condition
+      // if else
+      let age = 1;
+      if (age >= 18) {
+        console.log("you are eligibile to vote");
+      } else {
+        console.log("you are not eligibile to vote");
+      }
+      let num = 100;
+      if (num % 2 == 0) {
+        console.log(num, " tegsh too bish");
+      }
+      // exe
+      let num2 = 15;
+      if (num2 % 3 == 0 && num2 % 5 == 0) {
+        console.log("fizz buzz");
+      } else if (num2 % 5 == 0) {
+        console.log("buzz");
+      } else if (num2 % 3 == 0) {
+        console.log("fizz");
+      } else {
+        console.log("no fizz buzz");
+      }
+
+      function fizzBuzzGame(num) {
+        if (num % 3 == 0 && num % 5 == 0) {
+          console.log("fizz buzz");
+        } else if (num % 5 == 0) {
+          console.log("buzz");
+        } else if (num % 3 == 0) {
+          console.log("fizz");
+        } else {
+          console.log("no fizz buzz");
+        }
+      }
+
+      fizzBuzzGame(10);
+      fizzBuzzGame(9);
+      fizzBuzzGame(30);
+      fizzBuzzGame(2);
+      // exercise2
+      function getTicketPrice(age) {
+        if (age >= 18) {
+          console.log("Output5");
+        } else {
+          console.log;
+        }
+      }
+
+      getTicketPrice(10);
+      getTicketPrice(15);
+    </script>
   </body>
 </html>
